@@ -536,11 +536,12 @@ header{
 @media (max-width:1024px){
 
 .hero{
-    padding:110px 0 70px;
+    padding:60px 0 70px;
 }
 
 .hero-container{
     gap:40px;
+    
 }
 
 .hero-content h1{
@@ -573,10 +574,11 @@ header{
 
 .hero{
     padding:100px 0 60px;
+    
 }
 
 .hero-container{
-    flex-direction:column-reverse;
+    flex-direction:column;
     text-align:center;
     gap:40px;
 }
