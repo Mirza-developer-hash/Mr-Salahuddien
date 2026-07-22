@@ -1812,6 +1812,257 @@ line-height:1.7;
 }
 
 /*====================================
+        Education Section
+=====================================*/
+
+.education{
+
+    padding:120px 0;
+    background:#111827;
+
+}
+
+.education-wrapper{
+
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    margin-top:60px;
+
+}
+
+.education-card{
+
+    display:flex;
+    align-items:flex-start;
+    gap:30px;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:35px;
+    transition:.4s;
+    backdrop-filter:blur(12px);
+
+}
+
+.education-card:hover{
+
+    transform:translateY(-10px);
+    border-color:#38bdf8;
+    box-shadow:0 15px 40px rgba(56,189,248,.25);
+
+}
+
+.edu-icon{
+
+    width:80px;
+    height:80px;
+    min-width:80px;
+    background:#0f172a;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.4s;
+
+}
+
+.edu-icon i{
+
+    font-size:32px;
+    color:#38bdf8;
+
+}
+
+.education-card:hover .edu-icon{
+
+    transform:rotateY(360deg);
+
+}
+
+.edu-content{
+
+    flex:1;
+
+}
+
+.edu-year{
+
+    display:inline-block;
+    color:#38bdf8;
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:10px;
+
+}
+
+.edu-content h3{
+
+    font-size:26px;
+    color:#fff;
+    margin-bottom:10px;
+
+}
+
+.edu-content h4{
+
+    font-size:18px;
+    color:#cbd5e1;
+    margin-bottom:15px;
+
+}
+
+.edu-content p{
+
+    font-size:16px;
+    color:#94a3b8;
+    line-height:1.8;
+
+}
+
+/*====================================
+        992px
+=====================================*/
+
+@media (max-width:992px){
+
+    .education{
+
+        padding:100px 0;
+
+    }
+
+}
+
+/*====================================
+        768px
+=====================================*/
+
+@media (max-width:768px){
+
+    .education-card{
+
+        flex-direction:column;
+        text-align:center;
+        align-items:center;
+        padding:30px 25px;
+
+    }
+
+    .edu-icon{
+
+        width:70px;
+        height:70px;
+        min-width:70px;
+
+    }
+
+    .edu-icon i{
+
+        font-size:28px;
+
+    }
+
+    .edu-content h3{
+
+        font-size:24px;
+
+    }
+
+    .edu-content h4{
+
+        font-size:17px;
+
+    }
+
+}
+
+/*====================================
+        480px
+=====================================*/
+
+@media (max-width:480px){
+
+    .education{
+
+        padding:80px 0;
+
+    }
+
+    .education-card{
+
+        padding:25px 20px;
+
+    }
+
+    .edu-content h3{
+
+        font-size:22px;
+
+    }
+
+    .edu-content h4{
+
+        font-size:16px;
+
+    }
+
+    .edu-content p{
+
+        font-size:15px;
+
+    }
+
+}
+
+/*====================================
+        375px
+=====================================*/
+
+@media (max-width:375px){
+
+    .education-card{
+
+        padding:20px 15px;
+
+    }
+
+    .edu-icon{
+
+        width:65px;
+        height:65px;
+        min-width:65px;
+
+    }
+
+    .edu-icon i{
+
+        font-size:24px;
+
+    }
+
+    .edu-content h3{
+
+        font-size:20px;
+
+    }
+
+    .edu-content h4{
+
+        font-size:15px;
+
+    }
+
+    .edu-content p{
+
+        font-size:14px;
+        line-height:1.7;
+
+    }
+
+}
+
+/*====================================
             PROJECTS
 =====================================*/
 
